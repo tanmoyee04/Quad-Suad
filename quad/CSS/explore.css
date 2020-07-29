@@ -144,6 +144,18 @@
     opacity: 0;
     transition: 0.5s;
     transition-delay: 0.4s;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#content a{
+    text-decoration: none;
+    color: #fff;
+}
+#content a:hover{
+    color: #160d0d;
+}
+#content button:hover{
+    box-shadow: 6px 6px 8px #d43434;
 }
 #media{
     width: 210px;
@@ -188,7 +200,7 @@
     color: #fff;
     cursor: pointer;
 }
-#navigator{
+/* #navigator{
     width: 100px;
     height: 50px;
     position: absolute;
@@ -214,7 +226,7 @@
 }
 #navigator ul li:hover{
     box-shadow: 3px 3px 3px #000;
-}
+} */
 #indi{
     width: 40px;
     height: 120px;
